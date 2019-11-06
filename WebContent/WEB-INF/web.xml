@@ -20,6 +20,6 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>UserController</servlet-name>
-  <url-pattern>/user/*</url-pattern>
+  <url-pattern>/users/*</url-pattern>
   </servlet-mapping>
 </web-app>

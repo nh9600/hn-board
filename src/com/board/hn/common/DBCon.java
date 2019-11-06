@@ -22,7 +22,7 @@ public class DBCon {
 		}
 	}
 	private static Connection con;
-	public Connection getCon() {
+	public static Connection getCon() {
 		if(con==null) {
 			try {
 				con=DriverManager.getConnection(URL,ID,PWD);

@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public class URIController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private static final String PREFIX = "WEB-INF";
+	private static final String PREFIX = "/WEB-INF";
 	private static final String SUFFIX = ".jsp";
 	
 	private static String getForwardURI(HttpServletRequest request) {
