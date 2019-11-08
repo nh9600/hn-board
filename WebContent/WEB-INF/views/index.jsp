@@ -9,7 +9,7 @@
 </head>
 <body>
 안녕하세요<br>
-<a href="/views/user/login"><button>로그인</button></a>
-<a href=""><button>회원가입</button></a>
+<a href="/views/user/login"><button>로그인</button></a><br>
+<a href="/views/user/signup"><button>회원가입</button></a><br>
 </body>
 </html>
